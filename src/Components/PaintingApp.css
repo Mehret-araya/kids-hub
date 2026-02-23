@@ -1,0 +1,33 @@
+.painting-app-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 88px 0.7rem 2rem;
+}
+
+.painting-app {
+  width: min(980px, 96vw);
+  margin: 0 auto;
+  padding: 0.9rem;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.9), rgba(219, 243, 255, 0.85));
+  box-shadow: 0 12px 24px rgba(6, 75, 191, 0.25);
+}
+
+.painting-app h2 {
+  font-family: "Baloo 2", cursive;
+  color: #0458d9;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .painting-app-container {
+    padding-top: 70px;
+  }
+
+  .painting-app {
+    width: 98vw;
+    padding: 0.5rem;
+    border-radius: 16px;
+  }
+}
