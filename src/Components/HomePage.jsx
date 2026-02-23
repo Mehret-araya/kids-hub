@@ -32,7 +32,7 @@ export default function HomePage() {
           <p>
             {t("home.credit")}
             <br />
-            messibre21@gmail.com
+            mehretaraya499@gmail.com
           </p>
         </footer>
       </div>
